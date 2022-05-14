@@ -1,0 +1,29 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    background-image: url(../Images/screen-0.jpg );
+    background-size: cover;
+    background-position: center;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
