@@ -78,10 +78,13 @@ header nav ul li a:hover {
 section {
     padding: 60px;
 }
+.work {
+    flex-wrap: wrap;
+}
 
 .box-text {
     display: flex;
-    border-radius: 15px;
+    flex-wrap: wrap;
 }
 
 .box-text:hover {
@@ -207,4 +210,35 @@ footer h2 {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    
+    .section-title {
+        width: 95%;
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .trainer {
+        flex: 0 100%;
+    } 
+    .boxes {
+        flex: 0 100%;
+    }
+    .box-text {
+        flex: 0 100%;
+    }
+    .work {
+        flex: 0 100%;
+    }
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-me>* {
+        flex: 0 100%;
+    }
+
+    .contact-me {
+        order: 3;
+    }
+}
